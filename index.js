@@ -1,4 +1,4 @@
-const contacts = require("./contacts");
+const contacts = require("./contacts.js");
 const program = require("commander");
 program
   .option("-a, --action <type>", "choose action")
